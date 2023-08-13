@@ -4,7 +4,7 @@ Tasarım Genel Bakışı:
 
 Sunulan gereksinimlere dayanarak SecurePay projesi için bir tasarım oluşturdum. Proje, Java ve Spring Boot çerçevesi kullanılarak geliştirilecek, hem ilişkisel hem de ilişkisel olmayan veritabanları kullanılacaktır. Müşteri ve ödeme yönetimi için Restful uç noktaları sunacak. Hata önleme, doğrulama kontrolleri, günlükleme ve Swagger ile API belgeleri uygulanacaktır.
 
-Teknoloji Yığını:
+Kullandığım Teknolojiler:
 
 Java (SDK 17+)
 Spring Boot 3 (MVC, Data JPA)
@@ -12,10 +12,15 @@ H2 Veritabanı
 Swagger (API belgeleri için)
 JUnit ve Mockito (test için)
 SLF4J ve Logback (loglama için)
+
 1- Depoyu klonlayın: git clone https://github.com/nezirturhalli/firisbe-case
+
 2- Proje dizinine gidin: cd firisbe
+
 3- Uygulamayı Maven kullanarak derleyin ve çalıştırın: mvn spring-boot:run
+
 4- Swagger UI belgelerine erişin:
+
 Web tarayıcınızı açın ve http://localhost:8080/swagger-ui/index.html adresine gidin.
 
 5- Kontroller:
