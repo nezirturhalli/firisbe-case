@@ -1,5 +1,5 @@
 # firisbe-case
-test case for firisbe company
+
 Tasarım Genel Bakışı:
 
 Sunulan gereksinimlere dayanarak SecurePay projesi için bir tasarım oluşturdum. Proje, Java ve Spring Boot çerçevesi kullanılarak geliştirilecek, hem ilişkisel hem de ilişkisel olmayan veritabanları kullanılacaktır. Müşteri ve ödeme yönetimi için Restful uç noktaları sunacak. Hata önleme, doğrulama kontrolleri, günlükleme ve Swagger ile API belgeleri uygulanacaktır.
