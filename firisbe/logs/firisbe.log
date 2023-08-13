@@ -1,0 +1,331 @@
+2023-08-14 00:01:17,155 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-14 00:01:17,182 INFO o.a.j.l.DirectJDKLog [Thread-12] Stopping service [Tomcat]
+2023-08-14 00:01:17,190 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:01:17,394 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-12] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 00:01:17,398 INFO c.z.h.HikariDataSource [Thread-12] HikariPool-3 - Shutdown initiated...
+2023-08-14 00:01:17,400 INFO c.z.h.HikariDataSource [Thread-12] HikariPool-3 - Shutdown completed.
+2023-08-14 00:01:17,521 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 16800 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 00:01:17,522 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 00:01:17,988 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 00:01:18,044 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2023-08-14 00:01:18,417 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 00:01:18,418 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 00:01:18,419 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 00:01:18,463 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 00:01:18,467 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 942 ms
+2023-08-14 00:01:18,506 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-08-14 00:01:18,511 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 00:01:18,513 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-08-14 00:01:18,514 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 00:01:18,586 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 00:01:18,607 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:01:18,608 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 00:01:18,651 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:01:18,708 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 00:01:18,720 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:01:19,472 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 00:01:19,965 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 00:01:19,987 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 00:01:20,000 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 2.535 seconds (process running for 2009.711)
+2023-08-14 00:01:20,003 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-08-14 00:05:42,546 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-14 00:05:42,556 INFO o.a.j.l.DirectJDKLog [Thread-16] Stopping service [Tomcat]
+2023-08-14 00:05:42,562 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-16] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:05:42,780 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-16] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 00:05:42,781 INFO c.z.h.HikariDataSource [Thread-16] HikariPool-4 - Shutdown initiated...
+2023-08-14 00:05:42,782 INFO c.z.h.HikariDataSource [Thread-16] HikariPool-4 - Shutdown completed.
+2023-08-14 00:05:42,866 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 16800 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 00:05:42,867 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 00:05:43,192 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 00:05:43,215 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2023-08-14 00:05:43,341 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 00:05:43,342 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 00:05:43,342 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 00:05:43,360 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 00:05:43,360 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 490 ms
+2023-08-14 00:05:43,376 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2023-08-14 00:05:43,378 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 00:05:43,379 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2023-08-14 00:05:43,379 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 00:05:43,415 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 00:05:43,424 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:05:43,424 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 00:05:43,452 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:05:43,503 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 00:05:43,512 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:05:43,696 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 00:05:43,818 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 00:05:43,829 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 00:05:43,833 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 1.003 seconds (process running for 2273.544)
+2023-08-14 00:05:43,834 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-08-14 00:06:21,099 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-14 00:06:21,108 INFO o.a.j.l.DirectJDKLog [Thread-20] Stopping service [Tomcat]
+2023-08-14 00:06:21,113 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-20] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:06:21,316 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-20] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 00:06:21,317 INFO c.z.h.HikariDataSource [Thread-20] HikariPool-5 - Shutdown initiated...
+2023-08-14 00:06:21,318 INFO c.z.h.HikariDataSource [Thread-20] HikariPool-5 - Shutdown completed.
+2023-08-14 00:06:21,414 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 16800 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 00:06:21,415 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 00:06:21,583 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 00:06:21,598 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 3 JPA repository interfaces.
+2023-08-14 00:06:21,662 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 00:06:21,662 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 00:06:21,663 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 00:06:21,674 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 00:06:21,674 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 257 ms
+2023-08-14 00:06:21,681 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2023-08-14 00:06:21,683 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-6 - Added connection conn50: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 00:06:21,683 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2023-08-14 00:06:21,684 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 00:06:21,767 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 00:06:21,806 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:06:21,807 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 00:06:21,846 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:06:21,947 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 00:06:21,970 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:06:22,234 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 00:06:22,510 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 00:06:22,536 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 00:06:22,551 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 1.176 seconds (process running for 2312.263)
+2023-08-14 00:06:22,554 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-08-14 00:09:05,858 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-14 00:09:05,872 INFO o.a.j.l.DirectJDKLog [Thread-24] Stopping service [Tomcat]
+2023-08-14 00:09:05,878 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-24] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:09:06,087 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-24] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 00:09:06,088 INFO c.z.h.HikariDataSource [Thread-24] HikariPool-6 - Shutdown initiated...
+2023-08-14 00:09:06,090 INFO c.z.h.HikariDataSource [Thread-24] HikariPool-6 - Shutdown completed.
+2023-08-14 00:09:06,213 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 16800 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 00:09:06,213 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 00:09:06,616 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 00:09:06,646 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2023-08-14 00:09:06,891 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 00:09:06,892 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 00:09:06,892 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 00:09:06,920 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 00:09:06,920 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 702 ms
+2023-08-14 00:09:06,946 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2023-08-14 00:09:06,954 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-7 - Added connection conn60: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 00:09:06,955 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2023-08-14 00:09:06,955 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 00:09:07,018 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 00:09:07,034 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:09:07,034 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 00:09:07,067 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:09:07,181 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 00:09:07,242 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:09:07,576 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 00:09:08,056 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 00:09:08,192 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 00:09:08,229 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 2.077 seconds (process running for 2477.941)
+2023-08-14 00:09:08,232 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-08-14 00:09:45,443 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-14 00:09:45,458 INFO o.a.j.l.DirectJDKLog [Thread-28] Stopping service [Tomcat]
+2023-08-14 00:09:45,464 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-28] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:09:45,681 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-28] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 00:09:45,682 INFO c.z.h.HikariDataSource [Thread-28] HikariPool-7 - Shutdown initiated...
+2023-08-14 00:09:45,685 INFO c.z.h.HikariDataSource [Thread-28] HikariPool-7 - Shutdown completed.
+2023-08-14 00:09:45,802 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 16800 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 00:09:45,803 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 00:09:46,291 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 00:09:46,316 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+2023-08-14 00:09:46,482 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 00:09:46,483 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 00:09:46,483 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 00:09:46,520 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 00:09:46,520 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 714 ms
+2023-08-14 00:09:46,539 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2023-08-14 00:09:46,545 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-8 - Added connection conn70: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 00:09:46,545 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2023-08-14 00:09:46,546 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 00:09:46,671 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 00:09:46,684 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:09:46,684 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 00:09:46,740 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:09:46,909 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 00:09:46,936 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:09:47,604 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 00:09:47,778 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 00:09:47,795 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 00:09:47,800 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 2.043 seconds (process running for 2517.512)
+2023-08-14 00:09:47,802 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-08-14 00:22:27,637 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-14 00:22:27,647 INFO o.a.j.l.DirectJDKLog [Thread-32] Stopping service [Tomcat]
+2023-08-14 00:22:27,657 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-32] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:22:27,886 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-32] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 00:22:27,887 INFO c.z.h.HikariDataSource [Thread-32] HikariPool-8 - Shutdown initiated...
+2023-08-14 00:22:27,887 INFO c.z.h.HikariDataSource [Thread-32] HikariPool-8 - Shutdown completed.
+2023-08-14 00:22:28,007 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 16800 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 00:22:28,007 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 00:22:28,389 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 00:22:28,415 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 25 ms. Found 3 JPA repository interfaces.
+2023-08-14 00:22:28,599 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 00:22:28,600 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 00:22:28,604 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 00:22:28,638 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 00:22:28,638 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 627 ms
+2023-08-14 00:22:28,658 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2023-08-14 00:22:28,660 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-9 - Added connection conn80: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 00:22:28,661 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2023-08-14 00:22:28,661 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 00:22:28,716 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 00:22:28,729 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:22:28,729 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 00:22:28,764 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:22:28,856 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 00:22:28,863 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:22:29,132 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 00:22:29,345 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 00:22:29,370 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 00:22:29,380 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 1.417 seconds (process running for 3279.091)
+2023-08-14 00:22:29,382 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-08-14 00:26:01,791 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-14 00:26:01,800 INFO o.a.j.l.DirectJDKLog [Thread-36] Stopping service [Tomcat]
+2023-08-14 00:26:01,806 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-36] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:26:02,009 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-36] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 00:26:02,009 INFO c.z.h.HikariDataSource [Thread-36] HikariPool-9 - Shutdown initiated...
+2023-08-14 00:26:02,010 INFO c.z.h.HikariDataSource [Thread-36] HikariPool-9 - Shutdown completed.
+2023-08-14 00:26:02,101 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 16800 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 00:26:02,102 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 00:26:02,390 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 00:26:02,414 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2023-08-14 00:26:02,531 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 00:26:02,532 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 00:26:02,532 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 00:26:02,549 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 00:26:02,549 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 445 ms
+2023-08-14 00:26:02,563 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2023-08-14 00:26:02,566 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-10 - Added connection conn90: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 00:26:02,566 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2023-08-14 00:26:02,566 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 00:26:02,596 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 00:26:02,604 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:26:02,605 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 00:26:02,631 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:26:02,673 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 00:26:02,680 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:26:02,869 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 00:26:03,013 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 00:26:03,031 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 00:26:03,037 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 0.967 seconds (process running for 3492.748)
+2023-08-14 00:26:03,038 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-08-14 00:33:49,999 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-14 00:33:50,012 INFO o.a.j.l.DirectJDKLog [Thread-40] Stopping service [Tomcat]
+2023-08-14 00:33:50,022 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-40] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:33:50,233 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-40] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 00:33:50,236 INFO c.z.h.HikariDataSource [Thread-40] HikariPool-10 - Shutdown initiated...
+2023-08-14 00:33:50,237 INFO c.z.h.HikariDataSource [Thread-40] HikariPool-10 - Shutdown completed.
+2023-08-14 00:33:50,373 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 16800 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 00:33:50,373 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 00:33:50,791 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 00:33:50,819 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2023-08-14 00:33:51,007 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 00:33:51,007 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 00:33:51,007 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 00:33:51,029 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 00:33:51,029 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 652 ms
+2023-08-14 00:33:51,050 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-11 - Starting...
+2023-08-14 00:33:51,054 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-11 - Added connection conn100: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 00:33:51,054 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-11 - Start completed.
+2023-08-14 00:33:51,055 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 00:33:51,095 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 00:33:51,109 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:33:51,109 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 00:33:51,144 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:33:51,195 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 00:33:51,207 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:33:51,468 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 00:33:51,640 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 00:33:51,661 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 00:33:51,668 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 1.357 seconds (process running for 3961.38)
+2023-08-14 00:33:51,670 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-08-14 00:38:47,514 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-14 00:38:47,569 INFO o.a.j.l.DirectJDKLog [Thread-44] Stopping service [Tomcat]
+2023-08-14 00:38:47,582 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-44] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:38:47,797 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-44] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 00:38:47,798 INFO c.z.h.HikariDataSource [Thread-44] HikariPool-11 - Shutdown initiated...
+2023-08-14 00:38:47,799 INFO c.z.h.HikariDataSource [Thread-44] HikariPool-11 - Shutdown completed.
+2023-08-14 00:38:47,960 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 16800 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 00:38:47,960 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 00:38:48,511 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 00:38:48,542 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2023-08-14 00:38:48,812 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 00:38:48,813 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 00:38:48,813 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 00:38:48,846 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 00:38:48,846 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 881 ms
+2023-08-14 00:38:48,867 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2023-08-14 00:38:48,877 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-12 - Added connection conn110: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 00:38:48,877 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2023-08-14 00:38:48,878 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 00:38:48,948 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 00:38:48,967 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:38:48,967 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 00:38:49,033 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 00:38:49,148 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 00:38:49,165 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 00:38:49,809 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 00:38:50,128 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 00:38:50,158 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 00:38:50,164 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 2.277 seconds (process running for 4259.875)
+2023-08-14 00:38:50,167 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-08-14 01:06:29,992 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-14 01:06:30,013 INFO o.a.j.l.DirectJDKLog [Thread-48] Stopping service [Tomcat]
+2023-08-14 01:06:30,027 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-48] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 01:06:30,245 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-48] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 01:06:30,245 INFO c.z.h.HikariDataSource [Thread-48] HikariPool-12 - Shutdown initiated...
+2023-08-14 01:06:30,275 INFO c.z.h.HikariDataSource [Thread-48] HikariPool-12 - Shutdown completed.
+2023-08-14 01:06:30,444 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 16800 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 01:06:30,445 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 01:06:31,014 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 01:06:31,052 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34 ms. Found 3 JPA repository interfaces.
+2023-08-14 01:06:31,262 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 01:06:31,263 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 01:06:31,263 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 01:06:31,307 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 01:06:31,307 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 848 ms
+2023-08-14 01:06:31,330 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-13 - Starting...
+2023-08-14 01:06:31,332 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-13 - Added connection conn120: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 01:06:31,332 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-13 - Start completed.
+2023-08-14 01:06:31,332 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 01:06:31,389 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 01:06:31,401 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 01:06:31,402 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 01:06:31,439 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 01:06:31,522 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 01:06:31,548 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 01:06:32,109 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 01:06:32,530 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 01:06:32,591 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 01:06:32,621 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 2.242 seconds (process running for 5922.332)
+2023-08-14 01:06:32,623 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-08-14 01:06:41,655 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 01:06:42,066 WARN o.s.b.f.s.DisposableBeanAdapter [SpringApplicationShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-08-14 01:06:42,067 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-13 - Shutdown initiated...
+2023-08-14 01:06:42,222 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-13 - Shutdown completed.
+2023-08-14 01:06:47,266 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CaseApplication using Java 17.0.3.1 with PID 2964 (C:\Users\nezir\Downloads\firisbe\case\target\classes started by nezir in C:\Users\nezir\Downloads\firisbe)
+2023-08-14 01:06:47,276 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-08-14 01:06:47,416 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-14 01:06:47,417 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-14 01:06:49,232 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 01:06:49,364 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 107 ms. Found 3 JPA repository interfaces.
+2023-08-14 01:06:50,222 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-08-14 01:06:50,231 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-08-14 01:06:50,231 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-14 01:06:50,314 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-08-14 01:06:50,315 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2897 ms
+2023-08-14 01:06:50,360 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-08-14 01:06:50,624 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=USERNAME
+2023-08-14 01:06:50,626 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-08-14 01:06:50,641 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-08-14 01:06:50,802 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 01:06:50,938 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-14 01:06:50,942 INFO o.h.c.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-08-14 01:06:51,222 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 01:06:51,441 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-14 01:06:51,922 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-08-14 01:06:53,103 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 01:06:53,197 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 01:06:54,227 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 01:06:54,874 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-08-14 01:06:54,943 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 01:06:54,967 INFO o.s.b.StartupInfoLogger [restartedMain] Started CaseApplication in 8.764 seconds (process running for 10.34)
