@@ -2,11 +2,11 @@
 
 Tasarım Genel Bakışı:
 
-Sunulan gereksinimlere dayanarak SecurePay projesi için bir tasarım oluşturdum. Proje, Java ve Spring Boot çerçevesi kullanılarak geliştirilecek, hem ilişkisel hem de ilişkisel olmayan veritabanları kullanılacaktır. Müşteri ve ödeme yönetimi için Restful uç noktaları sunacak. Hata önleme, doğrulama kontrolleri, günlükleme ve Swagger ile API belgeleri uygulanacaktır.
+Sunulan gereksinimlere dayanarak SecurePay projesi için bir tasarım oluşturdum. Proje, Java ve Spring Boot çerçevesi kullanılarak geliştirildi, ilişkisel  veritabanı kullanıldı. Müşteri ve ödeme yönetimi için Restful uç noktaları sunuldu. Hata önleme, doğrulama kontrolleri, günlükleme ve Swagger ile API belgeleri uygulandı.
 
 Kullandığım Teknolojiler:
 
-Java (SDK 17+)
+Java 17
 
 Spring Boot 3 (MVC, Data JPA)
 
