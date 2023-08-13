@@ -44,7 +44,7 @@ GET /payments/by-customer/{customerId} - Müşteri id'sine göre ödemeleri geti
 
 GET /payments/by-card-number/{cardNumber} - Müşteri kart numarasına göre ödemeleri getir .
 
-GET /payments/by-date - Belirli bir tarih aralığındaki tüm ödemeleri listeleyin.
+GET /payments/by-date-range - Belirli bir tarih aralığındaki tüm ödemeleri listeleyin.
 
 6-Doğrulamalar:
 
